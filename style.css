@@ -1,8 +1,9 @@
 * {
     margin: 0px;
     padding: 0px;
-
+    /* overflow: hidden; */
 }
+
 
 /* nav section */
 .nav-container {
@@ -60,21 +61,19 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
-.box1{
-    
+.box1 {
+
     background-color: #fff;
-    background-image: url(images/Group\ 14.png) ;
+    background-image: url(images/Group\ 14.png);
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-size: 100%; */
+    background-size: 100%;
 }
 
-.box2 {
-    border: 2px solid #8758F1;
-}
+.box2 {}
 
 #imgs {
     max-width: 100%;
@@ -112,7 +111,7 @@
 
 .btn1 {
     background-color: #FF42A5;
-    
+
 }
 
 .btn2 {
@@ -120,13 +119,265 @@
 }
 
 #imgs {
-    width: 450px;
+    width: 400px;
 }
 
 /* banner section end */
 
 /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
 
+/* step1 start We are gamer */
+.We-are-gamer {
+    background-color: #FFF9FC;
+}
+
+.step1-container {
+    margin: 0px 160px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF9FC;
+}
+
+.step1-box1 {
+    max-width: 100%;
+}
+
+#pngwing-4 {
+    width: 600px;
+}
+
+.step1-box2 {
+    text-align: end;
+}
+
+.step1-line1 {
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.step1-line2 {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.step1-btn {
+    background-color: #F948B2;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: wheat;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+
+#step1-1 {
+    color: gray;
+    font-size: 20px;
+}
+
+#step1-2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* step1 start We are gamer */
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+/* Online-Games-Funny-Videos start  */
+.Online-Games-Funny-Videos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 100px;
+    margin-right: 10px;
+}
+
+.card1 {
+    width: 280px;
+    height: 350px;
+    text-align: left;
+}
+
+.funny-img {
+    width: 250px;
+}
+
+.online-games-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.funny-vedio {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.A {
+    font-size: small;
+    color: rgb(118, 114, 114);
+}
+
+.B {
+    font-size: 15px;
+    color: rgb(118, 114, 114)
+}
+
+.j:hover {
+    box-shadow: 5px 10px 18px yellow;
+}
+
+.k:hover {
+    box-shadow: 5px 10px 18px red;
+}
+
+.h:hover {
+    box-shadow: 5px 10px 18px green;
+}
+
+.l:hover {
+    box-shadow: 5px 10px 18px blue;
+}
+
+/* #hh:hover{
+    position: relative;
+    font-size: 30px;
+    color: #F948B2;
+} */
+
+
+/* Online-Games-Funny-Videos end  */
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+/* play instantly start */
+.box5-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: end;
+    margin: 50px 0px;
+}
+
+.box-8 {
+    text-align: end;
+}
+
+.small {
+    display: flex;
+    margin-top: -200px;
+    margin-right: 450px;
+}
+
+#TT {
+    max-width: 550px;
+}
+
+#tt {
+    max-width: 200px;
+}
+
+.kk {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.KK {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+/* play instantly start */
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+/* button section */
+.boss-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.box11{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    width: 170px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: rgb(228, 223, 223);
+}
+.box11:hover {
+    border: 1px solid red;
+} 
+
+.container{
+    display: flex;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* button section */
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+/* footer section */
+.footer-container{
+    background-color: #0B0223;
+    color: white;
+    margin-top: 50px;
+}
+.footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mentus{
+    margin: 20px 15px;
+}
+.icon12-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icuns{
+    margin: 20px 15px;
+    color: white;
+}
+
+.footer1-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mentus1{
+    margin: 15px;
+    font-size: small;
+}
+.byby{
+text-align: center;
+font-size: small;
+}
 
 
 
@@ -135,27 +386,139 @@
 
 
 
-    
-@media screen and (max-width:576px){
+
+
+/* pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp */
+/* ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp */
+
+@media screen and (max-width:576px) {
     /* nav section */
-    .nav-container{
+    .nav-container {
         flex-direction: column;
     }
-    .nav-menu{
+
+    .nav-menu {
         flex-direction: column;
-       
+
     }
-    .menu{
+
+    .menu {
         padding: 10px 0px;
     }
+
+    /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
     /* banner section */
     .banner-container {
         flex-direction: column-reverse;
     }
 
+    /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+    /* we are gamer section */
+    .step1-container {
+        margin: 0px 0px;
+        flex-direction: column;
+    }
+
+    #pngwing-4 {
+        width: 400px;
+    }
+
+    .step1-box2 {
+        text-align: center;
+    }
+
+    /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+    /* Online-Games-Funny-Videos start  */
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 90px;
+        margin-right: 0px;
+
+    }
+
+    /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+    /* play instantly start */
+    .box5-container {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .small {
+        margin-top: -80px;
+        margin-right: 30px;
+    }
+    
+    #TT {
+        max-width: 300px;
+    }
+    
+    #tt {
+        max-width: 80px;
+    }
+    
+    .kk {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .KK {
+        font-size: 15px;
+        line-height: 30px;
+    }
+     /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+    /* button section  */
+    .boss-container{
+        display: flex;
+        
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container1{
+       flex-direction: column;
+       margin-top: -100px;
+    }
+    /* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+    /* footer section */
+    .footer-menu-container{
+        display: grid;
+        grid-template-columns: repeat(3,110px);
+       
+    }
+    #mentus{
+        margin: 5px px;
+        font-size: 15px;
+    }
+    .icon12-container{
+        display: grid;
+        grid-template-columns: repeat(3,50px);
+      
+    }
+    #icuns{
+        margin: 20px 0px;
+        color: white;
+    }
+    .footer1-menu-container{
+        display: flex;
+        margin-left: 5px;
+    }
+    #mentus1{
+        margin: 0px 0px;
+        font-size: 12px;
+        margin: 7px;
+    }
+
+   
+    
 
 
 
+
+
+     
 
 
 
